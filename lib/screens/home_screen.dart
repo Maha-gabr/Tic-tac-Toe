@@ -1,3 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:tic_tac_toe/core/app_colors.dart';
+
+class HomeScreen extends StatelessWidget {
+  static String routeName = 'homeScreen';
+
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+}
